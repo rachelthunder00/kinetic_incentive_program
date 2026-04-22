@@ -25,7 +25,19 @@ README.md
 
 ## Prototype
 
-Single-file React component. Two roles to explore:
+Single-file React component.
+
+### How to Run
+
+Because this is a zero-dependency standalone component (all icons and styles are inline), the fastest way to view it is in a browser playground:
+
+1. Open a React playground like [CodeSandbox](https://codesandbox.io/s/react-new) or [StackBlitz](https://stackblitz.com/fork/react).
+2. Replace the contents of `App.js` (or `App.jsx`) with the code from `kinetic-prototype.jsx`.
+3. The interactive prototype will render immediately.
+
+### What to Explore
+
+Two roles to explore:
 
 **Clinic Admin** — join/leave network, view credit status and access tiers, simulate 6-month credit decay, view record sharing status across therapists, benchmark dashboard
 
