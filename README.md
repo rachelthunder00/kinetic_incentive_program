@@ -27,13 +27,22 @@ README.md
 
 Single-file React component.
 
-### How to Run
+### How to Run Locally
 
-Because this is a zero-dependency standalone component (all icons and styles are inline), the fastest way to view it is in a browser playground:
+You can quickly run the prototype locally without needing to sign into any platform by using Vite:
 
-1. Open a React playground like [CodeSandbox](https://codesandbox.io/s/react-new) or [StackBlitz](https://stackblitz.com/fork/react).
-2. Replace the contents of `App.js` (or `App.jsx`) with the code from `kinetic-prototype.jsx`.
-3. The interactive prototype will render immediately.
+1. Open your terminal and create a new temporary React project:
+   ```bash
+   npm create vite@latest kinetic-app -- --template react
+   cd kinetic-app
+   npm install
+   ```
+2. Replace the contents of `src/App.jsx` with the code from `kinetic-prototype.jsx` from this repo.
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open the `localhost` link provided in your terminal (usually `http://localhost:5173`) to view and interact with the prototype.
 
 ### What to Explore
 
