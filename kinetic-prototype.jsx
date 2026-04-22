@@ -130,7 +130,7 @@ export default function KineticPrototype() {
     side: { width: "220px", background: C.white, borderRight: `1px solid ${C.brd}`, padding: "16px 0", flexShrink: 0, display: "flex", flexDirection: "column" },
     sideLabel: { fontSize: "10px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.08em", color: C.txtM, padding: "8px 16px 6px" },
     navItem: (a) => ({ display: "flex", alignItems: "center", gap: "10px", padding: "9px 16px", cursor: "pointer", border: "none", background: a ? C.priLt : "transparent", color: a ? C.pri : C.txtS, fontWeight: a ? 600 : 400, fontSize: "13.5px", fontFamily: "inherit", width: "100%", textAlign: "left", borderLeft: a ? `3px solid ${C.pri}` : "3px solid transparent", transition: "all 0.15s" }),
-    main: { flex: 1, padding: "28px 32px", maxWidth: "960px", overflow: "auto" },
+    main: { flex: 1, padding: "28px 32px", overflow: "auto" },
     title: { fontSize: "22px", fontWeight: 700, letterSpacing: "-0.3px", marginBottom: "4px" },
     sub: { fontSize: "13.5px", color: C.txtS, marginBottom: "24px" },
     card: { background: C.white, borderRadius: "10px", border: `1px solid ${C.brd}`, padding: "20px", marginBottom: "16px" },
