@@ -130,7 +130,7 @@ export default function KineticPrototype() {
     side: { width: "220px", background: C.white, borderRight: `1px solid ${C.brd}`, padding: "16px 0", flexShrink: 0, display: "flex", flexDirection: "column" },
     sideLabel: { fontSize: "10px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.08em", color: C.txtM, padding: "8px 16px 6px" },
     navItem: (a) => ({ display: "flex", alignItems: "center", gap: "10px", padding: "9px 16px", cursor: "pointer", border: "none", background: a ? C.priLt : "transparent", color: a ? C.pri : C.txtS, fontWeight: a ? 600 : 400, fontSize: "13.5px", fontFamily: "inherit", width: "100%", textAlign: "left", borderLeft: a ? `3px solid ${C.pri}` : "3px solid transparent", transition: "all 0.15s" }),
-    main: { flex: 1, padding: "28px 32px", overflow: "auto" },
+    main: { flex: 1, minWidth: 0, padding: "28px 32px", boxSizing: "border-box", overflow: "auto" },
     title: { fontSize: "22px", fontWeight: 700, letterSpacing: "-0.3px", marginBottom: "4px" },
     sub: { fontSize: "13.5px", color: C.txtS, marginBottom: "24px" },
     card: { background: C.white, borderRadius: "10px", border: `1px solid ${C.brd}`, padding: "20px", marginBottom: "16px" },
@@ -552,6 +552,11 @@ export default function KineticPrototype() {
 
   return (
     <div style={ss.app}>
+      <style>{`
+        body, html { margin: 0 !important; padding: 0 !important; background: ${C.bg} !important; }
+        #root { max-width: none !important; margin: 0 !important; padding: 0 !important; text-align: left !important; width: 100% !important; }
+        * { box-sizing: border-box; }
+      `}</style>
       <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
       <div style={ss.topBar}>
         <div style={ss.logo}><div style={ss.logoMark}>K</div><span>Kinetic</span><span style={{ fontSize: "12px", fontWeight: 400, opacity: 0.6, marginLeft: "4px" }}>Sharing Network</span></div>
