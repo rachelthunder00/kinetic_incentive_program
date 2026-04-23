@@ -54,8 +54,19 @@ Two roles to explore:
 
 Key interactions to demo: join network → share records as therapist → watch credits accumulate and access tiers unlock → view patient history at different tier levels → simulate time decay and observe tier downgrade → leave network and see explicit cost breakdown.
 
+### Prototype Screenshots
+
+**Admin Dashboard (Tier Ladder & Decay)**
+![Admin Dashboard](./admin_dashboard.png)
+
+**Physio Patient History (Tiered Access & Locked Fields)**
+![Physio Patient History](./physio_popup.png)
+
+**Benchmark Table (Individual vs Clinic vs Network)**
+![Benchmark Table](./benchmark_table.png)
+
 ## Docs
 
-[**Walkthrough**](walkthrough.md) — core mechanism, how each fear is addressed, anti-gaming, benchmark as independent incentive, role design
+[**Walkthrough**](walkthrough.md) — core mechanism (now includes a live prototype interaction video!), how each fear is addressed, anti-gaming, benchmark as independent incentive, role design
 
 [**Scaling**](scaling.md) — resistance segmentation (free-riders, competition fear, judgment fear), three-phase adoption path, CMS Meaningful Use as reference case, sensitivity analysis on final participation rate

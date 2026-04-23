@@ -4,6 +4,8 @@
 
 ## Core Mechanism: Symmetric Access
 
+![Prototype Demonstration](./prototype_demo.webp)
+
 Access credits = contribution credits. Contribute nothing, access nothing. Contribute more, access more complete history. This reframes sharing from a moral decision into a market transaction.
 
 Three access tiers enforce the gradient: Basic - treatment area and phase only, Standard - adds ROM and pain scores, Full - adds patient-reported outcomes and unlocks benchmark dashboard.
